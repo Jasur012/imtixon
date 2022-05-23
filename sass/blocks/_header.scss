@@ -1,0 +1,134 @@
+.header__top {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__address-box {
+    margin-left: 193px;
+    display: flex;
+    align-items: center;
+}
+.header__address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+.header__phones {
+    display:flex;    
+    align-items: center;
+}
+.header__point-icon, .header__phone-icon {
+    margin-right: 9px;
+}
+
+.header__number {
+    margin-right: 9px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    
+}
+.header__number:hover {
+    color: #FFBD54;
+    
+}
+
+.header__number:active {
+    color: #FFBD54;
+    opacity: 0.6;
+}
+
+.header__date {
+    display: flex;
+    align-items: center;    
+}
+.header__calendar-icon {
+    margin-right: 7px;
+}
+.header__datetime {
+    margin-right: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+
+.header__bottom {
+    padding: 0 65px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #fff;  
+}
+.header__link-logo {
+    position: absolute;
+    top: 21px;
+    z-index: 1;
+}
+.header__link-logo:hover {
+    opacity: 0.8;
+}
+.header__link-logo:active {
+    opacity: 0.6;
+}
+.header__logo {
+    display: block;  
+
+}
+.header__lists {
+    margin-left: 215px;
+    display: flex;
+    list-style-type: none;
+}
+.header__item {
+    display: flex;
+    margin-right: 55px;
+}
+.header__fish-icon {
+    margin-right: 12px;
+}
+.header__link{   
+    z-index: 1;
+    position: relative; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.header__link::before {
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background-color: #F4FFAD;
+    content: "";
+    transition: all 0.3 ease;
+}
+
+.header__link:hover::before {
+    height: 30%;
+}
+.header__link:active::before {
+    opacity: 0.6;
+}
+.header__cantact-link {
+    display: flex;
+    align-items: center;
+}
+.header__cantact-link:active {
+    opacity: 0.6;
+}
+.header__lapa-icon {
+    margin-right: 7px;
+}

@@ -1,0 +1,71 @@
+.hero::before {  
+    width: 870px;
+    height: 835px;  
+    z-index: -2;
+    top: -92px;
+    left: calc(50% - 910px);
+    position: absolute;
+    background-image: url(../images/animals.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+}
+.hero::after {
+    z-index: -1;
+    width: 350px;
+    height: 430px;  
+    position: absolute;
+    top: 429px;
+    left: calc(50% - -487px);
+    background-image: url(../images/birds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    
+}
+.hero__left{
+    position: relative;
+    left: calc(50% - -13px);
+}
+.hero__header {
+    max-width: 608px;
+    margin-top: 153px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+
+}
+.hero__headerblue {
+   color: #78C0DE;
+}
+.hero__description {
+    margin: 0;
+    margin-top: 29px;
+    max-width: 495px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+}
+.hero__link {
+    display: inline-block;
+    margin-top: 38px;
+    margin-bottom: 290px;
+    width: 100%;
+    max-width: 181px;
+    padding: 15px 47px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #333;
+    border-radius: 3px;
+}
+.hero__link:hover {
+    background: rgba(51, 51, 51, 0.8);
+}
+.hero__link:active {
+    background: rgba(51, 51, 51, 0.6);
+}
